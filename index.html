@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <main class="main">
+        <h1>Your best <span>Dictionary</span></h1>
+
+        <form action="" class="form">
+          <div class="form-group">
+            <input
+              type="text"
+              name="word"
+              id="word-input"
+              placeholder="Type a word..."
+              value=""
+            />
+          </div>
+          <button type="submit">Search</button>
+        </form>
+        <div class="error">Word not found</div>
+
+        <div class="results">
+
+            <div class="results-info">
+                <div class="result-word"></div>
+
+                <div class="results-sound">
+                    <img src="assets/images/sound.png" alt="">
+                </div>
+            </div>
+
+            <div class="results-list">
+                <div class="results-item">
+                    <div class="results-item__part">Noun</div>
+
+                    <div class="results-item__defenitions">
+                        <div class="results-item__definition">
+                            <p>UYF KYFKU</p>
+                            <div class="results-item__example">LUYF LUYFO</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
